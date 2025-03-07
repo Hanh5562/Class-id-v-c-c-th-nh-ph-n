@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập HTML & CSS</title>
+    <style>
+        /* Định dạng chung */
+        body {
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Bài 1: Hiệu ứng mờ ảnh khi hover */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            opacity: 0.5;
+            transition: opacity 0.5s;
+        }
+
+        img:hover {
+            opacity: 1;
+        }
+
+        /* Bài 2: Hiển thị hộp và danh sách */
+        .box {
+            width: 50%;
+            margin: 10px auto;
+            padding: 20px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        .red-box { background: red; color: white; }
+        .blue-box { background: blue; color: white; }
+        .green-box { background: green; color: white; }
+
+        ul {
+            list-style-type: square;
+        }
+
+        /* Bài 3: Bảng dữ liệu */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hiệu Ứng Mờ Ảnh Khi Hover</h2>
+    <p>Di chuột vào ảnh để xem hiệu ứng:</p>
+    <div class="container">
+        <img src="meo.jpg" alt="Ảnh 1">
+        <img src="meo1meo1.jpg" alt="Ảnh 2">
+        <img src="meo2.jpg" alt="Ảnh 3">
+    </div>
+
+    <h2>Hộp màu sắc</h2>
+    <div class="box red-box">Red Box</div>
+    <div class="box blue-box">Blue Box</div>
+    <div class="box green-box">Green Box</div>
+
+    <h2>Danh sách</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Bảng dữ liệu</h2>
+    <table>
+        <tr>
+            <th>Tên công ty</th>
+            <th>Địa chỉ</th>
+            <th>Quốc gia</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berglund</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+</body>
+</html>

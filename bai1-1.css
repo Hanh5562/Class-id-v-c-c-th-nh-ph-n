@@ -1,0 +1,55 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Màu nền trắng */
+    color: #333; /* Màu chữ xám đậm */
+}
+
+/* Tiêu đề chính */
+h1.title {
+    color: #007bff; /* Màu xanh dương */
+    text-align: center;
+}
+
+/* Định dạng đoạn mô tả */
+p.description {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Tô màu đỏ cho chữ "external" */
+span.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Tiêu đề bài 1 */
+h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Định dạng danh sách liên kết */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Mỗi mục trong danh sách */
+ul li {
+    margin: 10px 0;
+}
+
+/* Định dạng liên kết */
+ul li a {
+    text-decoration: none;
+    color: #007bff; /* Màu xanh dương */
+    font-weight: bold;
+}
+
+/* Hiệu ứng khi di chuột vào liên kết */
+ul li a:hover {
+    color: red; /* Đổi thành màu đỏ khi hover */
+}

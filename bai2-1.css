@@ -1,0 +1,48 @@
+/* Định dạng chung */
+body {
+    font-family: 'Roboto Slab', serif; /* Sử dụng font Roboto Slab */
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+
+/* Khung chứa toàn bộ nội dung */
+.container {
+    width: 560px;
+    margin: auto;
+    background-color: rgb(194, 186, 186); /* Màu nền của container */
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+.title {
+    color: rgb(19, 151, 151);
+}
+
+/* Danh sách liên kết */
+.link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+/* Định dạng liên kết */
+.link {
+    text-decoration: none;
+    color: rgb(66, 189, 189);
+    font-weight: bold;
+}
+
+/* Hiệu ứng khi hover vào liên kết */
+.link:hover {
+    color: rgb(228, 228, 19);
+}
+
+/* Chú thích */
+.note {
+    color: rgb(66, 189, 189);
+}
